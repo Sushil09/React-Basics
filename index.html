@@ -1,60 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
+  <link rel="stylesheet" href="index.css" />
 
-<body>
-    <div id="root"></div> 
-    
-<script>
-    // const heading = document.createElement("h1");
-
-    // heading.innerHTML="Namastey Everyone from Everyone";
-
-    // const root= document.getElementById("root");
-
-    // root.appendChild(heading);
-    
-</script>
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-
-<script>
-    //order of script matters a lot for react.
-
-    // const heading = React.createElement("h1",{
-    //     id:"title"
-    // },"Namastey Everyone");
-
-    
-    const heading = React.createElement("h1",{
-        id:"title"
-    },"Heading 1");
-
-    const heading2 = React.createElement("h2",{
-        id:"title"
-    },"Heading 2");
-
-    const container = React.createElement(
-        "div",
-        {
-            id:"Container",
-        },
-        [heading,heading2]
-    );
-
-    // console.log(heading);
-
-    const root = ReactDOM.createRoot(document.getElementById("root"));
-    root.render(container);
-
-
-</script>
-</body> 
+  <body>
+    <div id="root"></div>
+    <script type="module" src="app.js"></script>
+  </body>
 </html>
