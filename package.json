@@ -4,6 +4,8 @@
   "description": "This covers the basics of react app.",
   "main": "app.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/Sushil09/React-Basics#readme",
   "devDependencies": {
+    "@babel/core": "^7.21.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.8.3",
     "process": "^0.11.10"
   },
